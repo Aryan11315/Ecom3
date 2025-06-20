@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+
+.alloptions{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 10px;
+}
+.logo
+{
+    padding-left: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+    color: white;
+}
+.login{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+.button{
+    border: none;
+    background-color: rgb(13, 13, 86);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.mainline{
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.madeoffer{
+    text-align: center;
+    background-color: rgb(227, 205, 205);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.item img{
+    height: 250px;
+    width: 250px;
+}
+.topitems{
+    display: grid;
+    grid-template-rows: 350px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    align-self: center;
+}
+.topdeals{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.top{
+    text-align: center;
+}
+
+.deals{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin-left: 15%;
+
+}
+.deal{
+    background-color: aqua;
+    height: 250px;
+    width: 250px;
+}
+nav{
+    position: fixed;
+    top: 0px;
+    
+}
